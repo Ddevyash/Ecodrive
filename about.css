@@ -25,6 +25,7 @@ body{
     top: 0px;
     z-index: 1;
     width:1270px;
+    padding-bottom: 20px;
 }
 
 .logo{
@@ -107,7 +108,7 @@ ul{
     display: grid;
     grid-template-columns: 1.6fr 1fr;
     padding-left: 40px !important;
-    margin-top: 30px;
+    margin-top: 130px;
 }
 
 .about-us .note h1{
@@ -127,13 +128,13 @@ ul{
 
 .about-us .picture{
     padding-left: 0px;
-    padding-top: 80px;
+    padding-top: 100px;
     
 }
 
 .about-us .picture img{
-    width: 320px;
-    clip-path: circle();
+    width: 520px;
+    border-radius: 100px;
 }
 
 .about-line{
@@ -142,11 +143,248 @@ ul{
     margin-top: 20px;
 }
 
-
-.copy{
-    color: grey;
-    font-size: 15px;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    margin-left: 520px;
+.hamburger{
+    display: none;
 }
+
+.close{
+    display: none;
+}
+
+.nav-list{
+    display: none;
+}
+
+
+footer{
+    color: green;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsiveness */
+
+@media screen and (max-width:414px) {
+
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    
+    body{
+        padding: 0px;
+        margin: 0px;
+        background-color: black;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    
+    
+    
+    /* Navigation */
+    
+    .nav-bar{
+        background-color: black;
+        height: 80px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 10px;
+        position: fixed;
+        top: 0px;
+        z-index: 1;
+        width:1270px;
+        padding-bottom: 20px;
+    }
+    
+    .logo{
+        width: 100px;
+        margin-left: -110px;
+        color: white;
+        font-size: 20px;
+        
+    }  
+    
+    .logo p{
+        margin-left: 10px;
+        background-color: green;
+        border-radius: 20px;
+        padding-left: 10px;
+        width: 50px;
+    }
+    
+    .logo span{
+        color: orange;
+    }
+    
+    .logo img{
+        width: 110px;
+        padding-top: 5px;
+    }
+    
+    .nav-menu{
+        color: red;
+        display: flex;
+    }
+    
+    .access{
+        display: none;
+    }
+    
+    .hamburger{
+        width: 40px;
+        margin-left: -140px;
+        display: block;
+    }
+    
+    .close{
+        width: 40px;
+        margin-left: -140px;
+        display: none;
+    }
+    
+    .nav-list{
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding-top: 20px;
+        padding-left: 10px;
+        line-height: 45px;
+        position: absolute;
+        top: 100px;
+        height: 1500px;
+        width: 1500px;
+        background-color: black;
+        display: none;
+        font-size: 20px;
+    }
+    
+    .nav-list a{
+        text-decoration: none;
+        color: white;
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    .my-btn{
+        display: flex;
+        
+    }
+    
+    .nav-list button{
+        margin-right: 5px;
+        padding: 5px 5px;
+        margin-bottom: 5px;
+        background-color: black;
+        border: 1px solid white;
+        color: white;
+    }
+    
+    .nav-menu a{
+        display: none;
+        color: white;
+        text-decoration: none;
+        margin-right: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .nav-menu a:hover{
+        color:green;
+        transition: 0.7s;
+    }
+    
+    .access{
+        display: flex;
+        position: absolute;
+        top: 30px;
+        right: 20px;
+    }
+    
+    .access button{
+        padding: 6px 10px;
+        width: 80px;
+        background-color: transparent;
+        color: white;
+        border: 1px solid gray;
+    
+    }
+    
+    .access button:hover{
+        background-color: rgb(2, 70, 2);
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    
+    ul{
+        display: block;
+        background-color: red;
+        margin-top: 100px;
+        
+        list-style: none;
+        justify-content: space-between;
+        /* margin-left: 40px; */
+        
+    }
+    
+    .list{
+        display: block;
+    }
+    
+  
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

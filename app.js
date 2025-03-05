@@ -1,13 +1,14 @@
 
-let changecolor=document.querySelector('.mytext');
-let changecolor2=document.querySelector('.mytext2');
-let changecolor3=document.querySelector('.mytext3');
-let changecolor4=document.querySelector('.mytext4');
+let toggle = document.querySelector('.hamburger');
+    toggle.addEventListener('click', function(){
+        document.querySelector('.nav-list').style.display='block';
+        document.querySelector('.close').style.display='block';
+        this.style.display='none';
+})
 
-
-function changeColor(){
-    changecolor.style.color='white';
-    changecolor2.style.color='white';
-    changecolor3.style.color='white';
-    changecolor4.style.color='white';
-}
+let cancel = document.querySelector('.close');
+    cancel.addEventListener('click', function(){
+        document.querySelector('.nav-list').style.display='none';
+        document.querySelector('.hamburger').style.display='block';
+        this.style.display='none';
+})
