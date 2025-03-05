@@ -1,0 +1,488 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+
+
+
+/* Navigation */
+
+.nav-bar{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    width:1270px;
+}
+
+.logo{
+    width: 100px;
+    margin-left: 100px;
+    color: white;
+    font-size: 30px;
+    
+}  
+
+.logo p{
+    margin-left: 18px;
+    background-color: green;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.logo span{
+    color: orange;
+}
+
+.logo img{
+    width: 110px;
+    padding-top: 5px;
+}
+
+.nav-menu{
+    color: red;
+    display: flex;
+}
+
+.nav-menu a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-menu a:hover{
+    color:green;
+    transition: 0.7s;
+}
+
+.access{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.access button{
+    padding: 6px 10px;
+    width: 80px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid gray;
+
+}
+
+.access button:hover{
+    background-color: rgb(2, 70, 2);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: 420px;
+}
+
+
+/* Contianer */
+
+.background-content{
+    background-color: black;
+    position: relative;
+    margin-top: 100px;
+    
+}
+
+.background-content img{
+    width: 1200px;
+    height: 400px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.introduction{
+    background-color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.background-content h1{
+    position: absolute;
+    color:white;
+    top: 80px;
+    left: 200px;
+    font-size: 40px;
+}
+
+
+.background-content .second-line{
+    position: absolute;
+    color:white;
+    top: 120px;
+    left: 200px;
+    font-size: 25px;
+    width: 500px;
+}
+
+
+.background-content .third-line{
+    position: absolute;
+    color:white;
+    top: 220px;
+    left: 200px;
+    font-size: 25px;
+    width: 500px;
+
+
+}
+
+.background-content p{
+    position: absolute;
+    color:white;
+    top: 210px;
+    left: 300px;
+    font-size: 14px;
+}
+
+.background-content p span{
+    color: green;
+}
+
+.background-content button{
+    position: absolute;
+    color:white;
+    top: 320px;
+    left: 200px;
+    font-size: 14px; 
+    background-color: transparent;  
+    border: solid 1px green;
+    padding: 8px 15px;
+    margin-top: 45px;
+    cursor: pointer;
+}
+
+.background-content button a{
+    color: white;
+    text-decoration: none;
+}
+
+.background-content button a:hover{
+    padding: 10px 17px;
+    transition: 0.5s;
+}
+
+
+.skill-content{
+    display: grid;
+    background-color: black;
+    height: 200px;
+    color: white;
+    padding-top: 100px;
+    padding-left: 150px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.skill-note{
+    line-height: 25px;
+}
+
+.skill-note h1{
+    margin-bottom: 10px;
+}
+
+.skill-note span{
+    color: green;
+}
+
+.skill-list{
+    white-space:calc(80px);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.skill-list span{
+    font-size: 40px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.price-content{
+    margin-top: 100px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+}
+
+.photo{
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+.photo img{
+    width: 670px;
+}
+
+.prices{
+    color: white;
+    background-color: black;
+    padding-top: 50px;
+    padding-left: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.prices h1{
+    width: 280px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.prices p{
+    width: 350px;
+    font-size: 13px;
+}
+
+.first{
+    margin-bottom: 70px;
+}
+
+.second{
+    margin-bottom: 70px;
+    color: orange;
+}
+
+.third{
+    margin-bottom: 70px;
+}
+
+.project-content{
+    margin-top: 100px;
+    background-color: rgba(40, 38, 38, 0.335);
+    height: 300px;
+}
+
+.note{
+    margin-left: 100px;
+    padding-top: 100px;
+}
+
+.note h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+
+.note button{
+    background-color: transparent;
+    color: white;
+    border: 1.5px solid green;
+    padding: 7px 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.note button:hover{
+    padding: 8px 25px;
+    transition: 0.5s;
+}
+
+.project{
+
+}
+
+.last-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 300px;
+}
+
+.last-content h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 220px;
+    padding-top: 100px;
+
+}
+
+.btn button{
+    background-color: transparent;
+    color: white;
+    padding: 7px 24px;
+    border: 1px solid green;
+    margin-top: 120px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+
+
+.btn button:hover{
+    padding: 8px 35px;
+    transition: 0.5s;
+}
+
+.project-content{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    height: 500px;
+    padding-bottom: 70px;
+    margin-top: 150px;
+}
+
+.project{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
+    column-gap: 0px;
+
+}
+
+.project div{
+    width: 300px;
+    height: 200px;
+    padding-left: 10px;
+}
+
+.project img{
+    width: 320px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.one{
+    width: 600px;
+}
+
+.two{
+
+width: 600px;}
+
+.one img{
+    width: 360px;
+}
+
+.two img{
+    width: 320px;
+    margin-top: 50px;
+}
+
+.three img{
+    width: 340px !important;
+    margin-top: 50px;
+}
+
+.four img{
+    width: 320px;
+    height: 150px;
+}
+
+
+
+footer{
+    background-color: rgba(40, 38, 38, 0.335);
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About Page */
+
+
+.home{
+    color:orange !important;
+    font-size: 20px;
+}
+
+.about-us{
+    height: 500px;
+    background-color: rgb(18, 17, 17);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 0px !important;
+}
+
+.about-us .note{
+    background-color: green;
+}
+
+.about-us picture{
+    background-color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Project */
