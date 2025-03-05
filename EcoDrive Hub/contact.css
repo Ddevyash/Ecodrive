@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+
+
+
+/* Navigation */
+
+.nav-bar{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.logo{
+    width: 100px;
+    margin-left: 100px;
+}   
+
+.logo img{
+    width: 110px;
+    padding-top: 5px;
+}
+
+.nav-menu{
+    color: red;
+    display: flex;
+}
+
+.nav-menu a{
+    color: white;
+    text-decoration: none;
+    margin-right: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-menu a:hover{
+    color:green;
+    transition: 0.7s;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: 420px;
+}
+
+.home{
+    color:orange !important;
+    font-size: 20px;
+}
+
+
+
+
+/* Container */
+
+.card{
+    background-color: rgb(18, 17, 17);
+    border-radius: 15px;
+    height: 460px;
+    width: 370px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 100px;
+    padding-top: 20px;
+    color: whitesmoke;
+    margin-bottom: 40px;
+}
+
+
+input{
+    margin-bottom: 5px;
+    width: 300px;
+    padding: 15px 10px 7px 7px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    background-color: transparent;
+}
+
+input:focus{
+    color: white;
+    outline: none;
+}
+
+input:focus::placeholder{
+    visibility: hidden;
+}
+
+::placeholder{
+    color: rgb(236, 235, 235);
+}
+
+.text{
+    margin-top: 100px;
+}
+
+.card button{
+    margin-left: 20px;
+    width: 320px;
+    padding: 10px 5px;
+    background-color: green;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.card button:hover{
+    padding: 10px 5px;
+    background-color: rgb(180, 134, 49);
+    opacity: 1;
+    transition: 0.7s;
+}
+
+p{
+    color: grey;
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+}
+
+
+
