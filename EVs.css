@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+
+
+
+/* Navigation */
+
+.nav-bar{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    width:1270px;
+}
+
+.logo{
+    width: 100px;
+    margin-left: 100px;
+    color: white;
+    font-size: 30px;
+    
+}  
+
+.logo p{
+    margin-left: 18px;
+    background-color: green;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.logo span{
+    color: orange;
+}
+
+.logo img{
+    width: 110px;
+    padding-top: 5px;
+}
+
+.nav-menu{
+    color: red;
+    display: flex;
+}
+
+.nav-menu a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-menu a:hover{
+    color:green;
+    transition: 0.7s;
+}
+
+.access{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.access button{
+    padding: 6px 10px;
+    width: 80px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid gray;
+
+}
+
+.access button:hover{
+    background-color: rgb(2, 70, 2);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: 420px;
+}
+
+
+/* Container */
+
+.EVs{
+    color: white;
+    margin-top: 210px;
+}
+.AboutEVs{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 0px 10px;
+    color: white;
+
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: black;   
+}
+header{
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.Benefits{
+    color: white;
+    margin-top: 210px;
+
+}
+.BenefitsofElectricVehicles{
+    margin-top: 20px;
+
+}
